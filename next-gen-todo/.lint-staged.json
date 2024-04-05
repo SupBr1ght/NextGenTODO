@@ -1,0 +1,4 @@
+{
+  "staged": ["**/*.{js,jsx,ts,tsx}"],
+  "lint": ["eslint --fix"]
+}
