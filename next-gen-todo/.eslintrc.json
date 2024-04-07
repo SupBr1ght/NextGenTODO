@@ -2,6 +2,6 @@
   "extends": ["eslint:recommended", "prettier"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": ["error", { "endOfLine": "auto" }] // Adjust Prettier rules as needed
+    "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }
 }

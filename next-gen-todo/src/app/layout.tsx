@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
+import SessionWrapper from './components/SessionWrapper'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import SessionWrapper from './components/SessionWrapper'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +14,6 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    //* Init next auth to app
     <SessionWrapper>
       <html lang="en">
         <body className={inter.className}>{children}</body>
